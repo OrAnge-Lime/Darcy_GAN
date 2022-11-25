@@ -9,8 +9,8 @@ Architecture of discriminator model contains the several convolutional layers wi
 ![discriminator](https://user-images.githubusercontent.com/71509624/204063354-d5918a99-dcde-4d3c-8f32-a8093a534bfa.png)
 
 Architecture of generator model contains the several transpose convolutional layers with also Leaky ReLU activation function (except for the last layer where it is tanh).
-
 Also, all of the layers separetad with Batch Normalization layers, to avoid owerfiting.
+
 ![generator](https://user-images.githubusercontent.com/71509624/204063370-347690f4-b822-4176-a9c0-4678aae4cfd2.png)
 
 
