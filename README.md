@@ -13,9 +13,9 @@ Architecture of discriminator model contains the several convolutional layers wi
 
 ![image](https://user-images.githubusercontent.com/71509624/204064196-02e4faea-3d30-4d1b-9290-1b6702e8f653.png)
 
-The result of the training prosess are provided below. It is still remains blurry, but in some cases it is possibly to catch a glimps of a cat outline.
+The results of the training prosess are provided below. It takes 10 000 epochs and still pictures remain blurry, but in some cases it is possibly to catch a glimps of a cat's outline.
 
-![movie](https://user-images.githubusercontent.com/71509624/204069021-76901389-9805-4dc5-b336-83785aba432e.gif)
+![movie](https://user-images.githubusercontent.com/71509624/204069220-f0c50495-4e91-439c-96f6-047aaaa3f9b4.gif)
 
 
 
