@@ -4,8 +4,15 @@ DCGAN model is a direct extension of the GAN, except that it explicitly uses con
 
 ![image](https://user-images.githubusercontent.com/71509624/204069188-0ea420cd-fd58-41e0-96bb-1ddc595f3177.png)
 
+## Dataset
+
 This repo contains the dataset of ragdoll cats and a code of DCGAN model, that generates them.
 Before training, created dataset was augmented using python albumentations library with the `preprocessing.py` module code, which increases the size of dataset several times
+
+![a](https://user-images.githubusercontent.com/71509624/204069814-2e7edaaa-1660-4142-93d8-89da5ae9779f.png)
+
+
+## Architecture
 
 Architecture of generator model contains the several transpose convolutional layers with also Leaky ReLU activation function (except for the last layer where it is tanh). Also, all of the layers separetad with Batch Normalization layers, to avoid owerfiting.
 
